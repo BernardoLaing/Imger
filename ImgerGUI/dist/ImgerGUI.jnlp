@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ImgerGUI.jnlp">
+  <information>
+    <title>ImgerGUI</title>
+    <vendor>berna</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ImgerGUI.jar" size="4414823" download="eager" />
+    <jar href="lib\ImgerAPI.jar" size="9360" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ImgerGUI" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafxapplication1.ImgerGUI"  name="ImgerGUI" />
+  <update check="always"/>
+</jnlp>
